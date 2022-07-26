@@ -12638,20 +12638,35 @@ body {
   font-family: "Asap Condensed", sans-serif;
 }
 
-header li.nav-item {
+header .top-nav {
+  list-style-type: none;
+  text-align: end;
+}
+
+header .top-nav li {
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+header .top-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav li.nav-item {
   font-weight: 600;
 }
 
-header li.nav-item a {
+header nav li.nav-item a {
   color: inherit;
 }
 
-header li.nav-item a.active {
+header nav li.nav-item a.active {
   position: relative;
   color: #0C7CEC;
 }
 
-header li.nav-item a.active::after {
+header nav li.nav-item a.active::after {
   content: "";
   width: 70%;
   height: 0.5rem;
@@ -12660,6 +12675,34 @@ header li.nav-item a.active::after {
   bottom: -2.75rem;
   left: 15%;
   right: 15%;
+}
+
+header nav form {
+  position: relative;
+}
+
+header nav form .form-control {
+  border: none;
+  border-bottom: 2px solid #0C7CEC;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+header nav form .form-control::-moz-placeholder {
+  color: inherit;
+}
+
+header nav form .form-control::placeholder {
+  color: inherit;
+}
+
+header nav form .fa-magnifying-glass {
+  position: absolute;
+  top: 0.7rem;
+  right: 0;
+  font-size: 1.2rem;
 }
 
 header .jumbotron {
