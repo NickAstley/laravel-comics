@@ -12638,12 +12638,6 @@ body {
   font-family: "Asap Condensed", sans-serif;
 }
 
-main {
-  background: black;
-  padding: 3rem;
-  color: white;
-}
-
 header li.nav-item {
   font-weight: 600;
 }
@@ -12717,5 +12711,56 @@ footer .sign-up-banner .btn-outline-primary {
   border-radius: 0;
   color: white;
   border-width: 2px;
+}
+
+main {
+  background: black;
+  color: white;
+}
+
+main .blue-banner img {
+  transform: scale(0.7);
+  max-width: 120px;
+  max-height: 100px;
+}
+
+main .blue-banner span {
+  font-size: 1.1rem;
+}
+
+main .current-series-title {
+  background: #0C7CEC;
+  display: inline-block;
+  padding: 1rem 2rem 1rem 2rem;
+  transform: translate(0, -50%);
+}
+
+main .comic-container {
+  position: relative;
+}
+
+main .comic-container .comic-img-container {
+  overflow: hidden;
+  aspect-ratio: 1/1;
+}
+
+main .comic-container .hover-info {
+  display: none;
+}
+
+main .comic-container:hover .hover-info {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+main .btn.btn-primary {
+  border-radius: 0;
+  color: white;
+  font-size: 0.9rem;
 }
 

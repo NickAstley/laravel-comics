@@ -1,0 +1,56 @@
+main {
+    background: black;
+    // padding: 3rem;
+    color: white;
+
+    .blue-banner {
+        
+        img {
+            transform: scale(0.7);
+            max-width: 120px;
+            max-height: 100px;
+        }
+        
+        span {
+            font-size: 1.1rem;
+        }
+    }
+
+    .current-series-title {
+        background: $primary;
+        display: inline-block;
+        padding: 1rem 2rem 1rem 2rem;
+        transform: translate(0, -50%);
+    }
+
+    .comic-container {
+        position: relative;
+
+        .comic-img-container {
+            overflow: hidden;
+            aspect-ratio: 1 / 1;
+        }
+    
+        .hover-info {
+            display: none;
+        }
+
+        &:hover {
+            .hover-info {
+                display: block;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+
+    .btn.btn-primary {
+        border-radius: 0;
+        color: white;
+        font-size: 0.9rem;
+    }
+}
