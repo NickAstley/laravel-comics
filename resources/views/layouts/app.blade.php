@@ -11,5 +11,6 @@
     {{-- Importo Header --}}
     @include('partials.header')
     {{-- Importo Footer --}}
+    @include('partials.footer')
 </body>
 </html>

@@ -1,0 +1,35 @@
+footer {
+    background-image: url("../../../public/img/footer-bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h5 {
+        color: white;
+        text-transform: uppercase;
+    }
+
+    li {
+        a {
+            color: #7C7979;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+    }
+
+    .dc-bg {
+        background-image: url("../../../public/img/dc-logo-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .sign-up-banner {
+        background: #303030;
+
+        .btn-outline-primary {
+            border-radius: 0;
+            color: white;
+            border-width: 2px;
+        }
+    }
+}
