@@ -12803,6 +12803,15 @@ main .btn.btn-primary {
   font-size: 0.9rem;
 }
 
+main h2,
+main .h2,
+main h3,
+main .h3,
+main h6,
+main .h6 {
+  color: #003F5E;
+}
+
 main .blue-div {
   background-color: #0C7CEC;
   height: 100px;
@@ -12851,10 +12860,6 @@ main .my-smaller-container .current-comic-cover-container .current-comic-cover .
   right: 2px;
 }
 
-main .my-smaller-container .comic-title {
-  color: #003F5E;
-}
-
 main .my-smaller-container .price-availability {
   background-color: #55BA59;
   color: white;
@@ -12863,5 +12868,28 @@ main .my-smaller-container .price-availability {
 
 main .my-smaller-container .price-availability .transparent-text {
   opacity: 0.8;
+}
+
+main .bg-light-gray {
+  background-color: #F6F6F6;
+  border-top: 1px solid #E3E3E3;
+  font-size: 0.9rem;
+}
+
+main .bg-light-gray .border-bottom {
+  border-bottom: 1px solid #E3E3E3;
+}
+
+main .bg-light-gray a {
+  text-decoration: none;
+  color: #00A9D9;
+}
+
+main .bg-light-gray .gray-banner {
+  color: #303030;
+}
+
+main .bg-light-gray .gray-banner a {
+  color: inherit;
 }
 

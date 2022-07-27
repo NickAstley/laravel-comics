@@ -1,5 +1,9 @@
 main {
 
+    h2, h3, h6 {
+        color: #003F5E;
+    }
+
     .blue-div {
         background-color: $primary;
         height: 100px;
@@ -42,11 +46,6 @@ main {
                 }        
             }
         }
-        .comic-title {
-            // font-size: 1.5rem;
-            color: #003F5E;
-        }
-
         .price-availability {
             background-color: #55BA59;
             color: white;
@@ -54,6 +53,27 @@ main {
 
             .transparent-text {
                 opacity: 0.8;
+            }
+        }
+    }
+    .bg-light-gray {
+        background-color: #F6F6F6;
+        border-top: 1px solid #E3E3E3;
+        font-size: 0.9rem;
+
+        .border-bottom {
+            border-bottom: 1px solid #E3E3E3;
+        }
+
+        a {
+            text-decoration: none;
+            color: #00A9D9;
+        }
+        .gray-banner {
+            color: #303030;
+
+            a {
+                color: inherit;
             }
         }
     }

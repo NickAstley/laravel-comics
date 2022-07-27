@@ -38,9 +38,9 @@
                 <div class="row row-cols-6 gy-5">
                     {{-- Stampo le carte dei comics --}}
                     @foreach ($comics as $comic)                  
-                        <div>
+                        <a href="{{route('comics.details', $comic['id'])}}">
                             @include('partials.comic-card', $comic)
-                        </div>
+                        </a>
                     @endforeach
                 </div>
                 <div class="py-4 text-center">
