@@ -1,0 +1,60 @@
+main {
+
+    .blue-div {
+        background-color: $primary;
+        height: 100px;
+    }
+
+    .my-smaller-container {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+
+        .current-comic-cover-container {
+            position: absolute;
+            top: -20rem;
+            left: 0;
+
+            .current-comic-cover {
+                position: relative;
+                width: fit-content;
+    
+                img {
+                    border: 2px solid white;
+                }
+                .floating-label {
+                    position: absolute;
+                    background-color: #00A9D9;
+                    font-size: 0.9rem;
+                    text-align: center;
+                    padding: 0.2rem;
+                    color: white;
+    
+                    &.category-label {
+                        top: 2px;
+                        left: 2px;
+                    }
+                    &.gallery-label {
+                        bottom: 2px;
+                        left: 2px;
+                        right: 2px;
+                    }
+                }        
+            }
+        }
+        .comic-title {
+            // font-size: 1.5rem;
+            color: #003F5E;
+        }
+
+        .price-availability {
+            background-color: #55BA59;
+            color: white;
+            border-bottom: 1px solid black;
+
+            .transparent-text {
+                opacity: 0.8;
+            }
+        }
+    }
+}

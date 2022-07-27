@@ -44,7 +44,7 @@
                     {{-- Stampo la lista dei link --}}
                     @foreach ($navLinks as $link)
                         <li class="nav-item">
-                            <a class="nav-link px-3" class="{{ $link === `Comics` ? `active` : ` ` }}" aria-current="page" href="#">{{ $link }}</a>
+                            <a class="nav-link px-3 {{ $link === 'Comics' ? 'active' : '' }}" aria-current="page" href="#">{{ $link }}</a>
                         </li>
                     @endforeach
                 </ul>

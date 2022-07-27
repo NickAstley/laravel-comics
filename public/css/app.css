@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400%3b600%3b700&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
@@ -12661,12 +12661,12 @@ header nav li.nav-item a {
   color: inherit;
 }
 
-header nav li.nav-item a.active {
+header nav li.nav-item a.nav-link.active {
   position: relative;
   color: #0C7CEC;
 }
 
-header nav li.nav-item a.active::after {
+header nav li.nav-item a.nav-link.active::after {
   content: "";
   width: 70%;
   height: 0.5rem;
@@ -12756,11 +12756,6 @@ footer .sign-up-banner .btn-outline-primary {
   border-width: 2px;
 }
 
-main {
-  background: black;
-  color: white;
-}
-
 main .blue-banner img {
   transform: scale(0.7);
   max-width: 120px;
@@ -12780,6 +12775,7 @@ main .current-series-title {
 
 main .comic-container {
   position: relative;
+  color: white;
 }
 
 main .comic-container .comic-img-container {
@@ -12805,5 +12801,67 @@ main .btn.btn-primary {
   border-radius: 0;
   color: white;
   font-size: 0.9rem;
+}
+
+main .blue-div {
+  background-color: #0C7CEC;
+  height: 100px;
+}
+
+main .my-smaller-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+main .my-smaller-container .current-comic-cover-container {
+  position: absolute;
+  top: -20rem;
+  left: 0;
+}
+
+main .my-smaller-container .current-comic-cover-container .current-comic-cover {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+main .my-smaller-container .current-comic-cover-container .current-comic-cover img {
+  border: 2px solid white;
+}
+
+main .my-smaller-container .current-comic-cover-container .current-comic-cover .floating-label {
+  position: absolute;
+  background-color: #00A9D9;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0.2rem;
+  color: white;
+}
+
+main .my-smaller-container .current-comic-cover-container .current-comic-cover .floating-label.category-label {
+  top: 2px;
+  left: 2px;
+}
+
+main .my-smaller-container .current-comic-cover-container .current-comic-cover .floating-label.gallery-label {
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+}
+
+main .my-smaller-container .comic-title {
+  color: #003F5E;
+}
+
+main .my-smaller-container .price-availability {
+  background-color: #55BA59;
+  color: white;
+  border-bottom: 1px solid black;
+}
+
+main .my-smaller-container .price-availability .transparent-text {
+  opacity: 0.8;
 }
 

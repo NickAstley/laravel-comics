@@ -1,7 +1,4 @@
 main {
-    background: black;
-    // padding: 3rem;
-    color: white;
 
     .blue-banner {
         
@@ -25,6 +22,7 @@ main {
 
     .comic-container {
         position: relative;
+        color: white;
 
         .comic-img-container {
             overflow: hidden;

@@ -22,7 +22,7 @@ header {
             a {
                 color: inherit;
     
-                &.active {
+                &.nav-link.active {
                     position: relative;
                     color: $primary;
     
